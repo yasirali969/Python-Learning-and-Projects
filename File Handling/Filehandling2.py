@@ -4,7 +4,7 @@ with open(r"C:\Users\Microsoft\Documents\PYTHON\60 day code\File Handling\Practi
     data = f.read()
     print(data)
 
-newdata = data.replace("python", "Java")
+newdata =data.replace("python","Java")
 
 with open("Practice.txt", "w") as f:
     f.write(newdata)
