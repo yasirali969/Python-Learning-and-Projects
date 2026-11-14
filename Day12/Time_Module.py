@@ -1,20 +1,20 @@
 import time
 
 # Give time in second since 1970
-print(time.time())
+ print(time.time())
 
 # give time in human readable form
-print(time.ctime())
+ print(time.ctime())
 
 # take -seconds to pause to print output
-print(time.sleep(5))
+ print(time.sleep(5))
 
 # print local time
-print(time.localtime())
+ print(time.localtime())
 
 
 #print local time in proper format 
-t=time.localtime()
+ t=time.localtime()
 print("%Y-%M-%D %H:%M:%S",time.localtime())
 
 # High-precision timer for measuring performance or time intervals
