@@ -7,8 +7,8 @@ with open(r"C:\Users\Microsoft\Documents\PYTHON\60 day code\File Handling\Practi
 newdata =data.replace("python","Java")
 
 with open("Practice.txt", "w") as f:
-    f.write(newdata)
-    print(newdata)
+     f.write(newdata)
+     print(newdata)
 
 
-print("Done! File updated successfully.")
+ print("Done! File updated successfully.")
